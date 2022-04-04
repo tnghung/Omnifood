@@ -1,0 +1,138 @@
+/* ----------------------------- */
+/* BASIC SETUP */
+/* ----------------------------- */
+:root{
+    --primary-color: #e67e22;
+    --accent-color: #bf6516;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* ----------------------------- */
+/* REUSABLE COMPONENTS */
+/* ----------------------------- */
+
+
+/* ----- HEADINGS ----- */
+h1 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 220%;
+    /* Do h1 mặc định là bold nên khá xấu */
+    font-weight: 300;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+
+/* ----- BUTTONS ----- */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 400;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+    margin-right: 10px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 50px;
+    border: 1px solid transparent;
+}
+
+.btn--ghost:link,
+.btn--ghost:visited {
+    color: var(--primary-color);
+    border-radius: 50px;
+    border: 1px solid var(--primary-color);
+}
+
+.btn--full:hover,
+.btn--full:active{
+    background-color: var(--accent-color);
+}
+
+.btn--ghost:hover,
+.btn--ghost:active{
+    background-color: var(--accent-color);
+    color: #fff;
+}
+
+
+/* ----------------------------- */
+/* HEADER */
+/* ----------------------------- */
+header {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/hero.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.header__text-box {
+    width: 1140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo{
+    float: left;
+    height: 100px;
+    width: auto;
+    margin-top: 10px;
+}
+
+.main-nav{
+    margin-top: 40px;
+    float: right;
+    list-style: none;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: 1px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.6s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid var(--primary-color);
+}
