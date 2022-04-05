@@ -393,3 +393,46 @@ cite img{
     vertical-align: middle;
     margin-right: 10px;
 }
+
+/* Plan section */
+.section-plans{
+    background-color: #f4f4f4;
+}
+
+.plan-box{
+    background-color: #fff;
+    width: 90%;
+    border-radius: 5px;
+    margin-left: 5%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.plan-box div{
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-price{
+    font-size: 300%;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+    font-weight: 100;
+}
+
+
+.plan-price span{
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.plan-box ul{
+    list-style: none;
+}
+
+.plan-box li{
+    padding: 5px 0;
+}
+
+.plan-box div:last-child{
+    text-align: center;
+}
