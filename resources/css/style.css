@@ -103,6 +103,22 @@ section {
     margin: 10px 0px;
 }
 
+/* -------- LINKS --------- */
+a:link,
+a:visited{
+    font-weight: 300;
+    text-decoration: none;
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active{
+  border-bottom: 1px solid transparent;
+  color: #333;
+}
+
 /* ----- BUTTONS ----- */
 .btn {
     display: inline-block;
@@ -135,7 +151,7 @@ section {
 
 .btn--ghost:hover,
 .btn--ghost:active {
-    background-color: var(--accent-color);
+    background-color: var(--primary-color);
     color: #fff;
 }
 
@@ -195,6 +211,8 @@ header {
     border-bottom: 2px solid var(--primary-color);
 }
 
+
+
 /* ----------------------------- */
 /* SECTIONS */
 /* ----------------------------- */
@@ -203,6 +221,7 @@ header {
 .clear{
     clear: both;
 }
+
 .section-meals{
     padding: 0;
 }
@@ -241,4 +260,101 @@ header {
     cursor: pointer;
     transform: scale(1);
     opacity: 1;
+}
+
+/* ------- Steps section ------- */
+.section-steps{
+    background-color: #f4f4f4;
+}
+
+.steps__box:first-child{
+    padding: 3%;
+    width: 40%;
+    text-align: right;
+}
+.steps__box:last-child{
+    padding: 3%;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.steps__work-step:last-of-type{
+    margin-bottom: 50px;
+}
+
+.steps__app-screen{
+    width: 50%;
+    text-align: right;
+}
+
+.steps__work-step{
+    margin: 20px 0;
+
+}
+
+.steps__work-step div{
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    line-height: 30px;
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    text-align: center;
+    color: var(--primary-color);
+    font-weight: 400;
+}
+
+.steps__work-step p{
+    font-size: 90%;
+    line-height: 145%;
+}
+
+.btn-app:visited,
+.btn-app:link{
+    border: 0;
+}
+
+.btn-app img{
+    max-height: 40px;    
+    margin-right: 20px;
+}
+
+
+/* Cities section */
+.box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-feature{
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.icon-small{
+    display: inline-block;
+    min-width: 30px;
+    min-height: 30px;
+    color: var(--primary-color);
+    font-size: 90%;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.city-feature span{
+    font-size: 90%;
+}
+
+
+/* Testimonial section */
+.section-testimonial{
+    height: 100vh;
+    width: auto;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('./img/back-customers.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #fff;
 }
