@@ -125,7 +125,6 @@ a:active{
     padding: 10px 20px;
     text-decoration: none;
     font-weight: 400;
-    transition: background-color 0.4s, color 0.4s;
 }
 
 .btn--full:link,
@@ -135,6 +134,7 @@ a:active{
     color: #fff;
     border-radius: 50px;
     border: 1px solid transparent;
+    transition: background-color 0.4s, color 0.4s;
 }
 
 .btn--ghost:link,
@@ -142,6 +142,7 @@ a:active{
     color: var(--primary-color);
     border-radius: 50px;
     border: 1px solid var(--primary-color);
+    transition: background-color 0.4s, color 0.4s;
 }
 
 .btn--full:hover,
@@ -165,6 +166,8 @@ header {
     height: 100vh;
     background-position: center;
     background-size: cover;
+    /* Làm cho bức hình luôn cố định khi scroll, đỉnh vl */
+    background-attachment: fixed;
 }
 
 .header__text-box {
@@ -352,9 +355,41 @@ header {
 /* Testimonial section */
 .section-testimonial{
     height: 100vh;
-    width: auto;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('./img/back-customers.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('./img/back-customers.jpg');
     background-position: center;
     background-size: cover;
     color: #fff;
+    background-attachment: fixed;
+}
+
+.textimonial__content{
+    margin-top: 40px;
+}
+
+blockquote{
+    position: relative;
+    padding: 3%;
+    line-height: 145%;
+    font-style: italic;
+}
+
+.icon-quote{
+    position: absolute;
+    left: 3%;
+    top: -10%;
+    font-size: 160%;
+}
+
+cite{
+    display: block;
+    font-size: 90%;
+    margin-top: 15px;
+    font-style: normal;
+}
+
+cite img{
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
 }
