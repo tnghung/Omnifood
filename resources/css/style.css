@@ -50,7 +50,7 @@ h1 {
 }
 
 h2 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 180%;
     word-spacing: 2px;
     text-align: center;
@@ -435,4 +435,40 @@ cite img{
 
 .plan-box div:last-child{
     text-align: center;
+}
+
+
+/* Contact section */
+.contact-form{
+    width: 60%;
+    margin: 0 auto;
+}   
+
+.contact-form div{
+    margin-bottom: 6px;
+}
+
+::placeholder{
+    color: #333;
+    font-weight: 300;
+}
+
+input[type=text],
+input[type=email],
+textarea,
+select{
+    width: 100%;
+    padding: 6px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    outline: none;
+}  
+
+input[type=submit]{
+    background-color: var(--primary-color);
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 10px 30px;
+    font-weight: 300;
+    border-radius: 200px;
 }
