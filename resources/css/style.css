@@ -12,13 +12,15 @@
     box-sizing: border-box;
 }
 
-html {
+html,body {
     background-color: #fff;
     color: #333;
     font-family: 'Lato', 'Arial', sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .row {
@@ -168,6 +170,7 @@ header {
     background-size: cover;
     /* Làm cho bức hình luôn cố định khi scroll, đỉnh vl */
     background-attachment: fixed;
+    image-rendering: optimizeSpeed;
 }
 
 .header__text-box {
@@ -179,16 +182,23 @@ header {
 }
 
 .logo {
-    float: left;
     height: 100px;
     width: auto;
-    margin-top: 10px;
+    float: left;
+    margin-top: 20px;
+    text-rendering: optimizeSpeed;
+}
+
+.logo-link:visited,
+.logo-link:link{
+    float: left;
+    border-bottom: none;
 }
 
 .main-nav {
-    margin-top: 40px;
     float: right;
     list-style: none;
+    margin-top: 55px;
 }
 
 .main-nav li {
@@ -257,6 +267,7 @@ header {
     /* Zoom to bức hình lên 115% kích thước */
     transform: scale(1.15);
     transition: all 0.5s;
+    image-rendering: optimizeSpeed;
 }
 
 .meals__photo img:hover{
@@ -267,22 +278,23 @@ header {
 
 /* ------- Steps section ------- */
 .section-steps{
+    height: 100vh;
     background-color: #f4f4f4;
 }
 
 .steps__box:first-child{
     padding: 3%;
-    width: 40%;
+    width: 30%;
     text-align: right;
 }
 .steps__box:last-child{
     padding: 3%;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-left: 60px;
 }
 
 .steps__work-step:last-of-type{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .steps__app-screen{
@@ -339,8 +351,7 @@ header {
 
 .icon-small{
     display: inline-block;
-    min-width: 30px;
-    min-height: 30px;
+    min-width: 17px;
     color: var(--primary-color);
     font-size: 90%;
     text-align: center;
@@ -360,6 +371,7 @@ header {
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
+    image-rendering: optimizeSpeed;
 }
 
 .textimonial__content{
@@ -431,6 +443,7 @@ cite img{
 
 .plan-box li{
     padding: 5px 0;
+    white-space: nowrap;
 }
 
 .plan-box div:last-child{

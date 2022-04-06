@@ -13,22 +13,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="vendors/css/grid.css">
     <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/queries.css">
     <title>Omnifood</title>
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <nav>
             <div class="row">
-                <a href="#">
+                <a href="#features" class="logo-link">
                     <img src="./resources/css/img/logo-white.png" alt="Omnifood logo" class="logo">
+                    <div class="clear"></div>
                 </a>
                 <div class="main-nav">
                     <ul>
-                        <li><a href="#">Food delivery</a></li>
-                        <li><a href="#">How it works</a></li>
-                        <li><a href="#">Our cities</a></li>
-                        <li><a href="#">Sign up</a></li>
+                        <li><a href="#features">Food delivery</a></li>
+                        <li><a href="#steps">How it works</a></li>
+                        <li><a href="#cities">Our cities</a></li>
+                        <li><a href="#form">Sign up</a></li>
                     </ul>
                 </div>
             </div>
@@ -37,13 +39,13 @@
             <h1>
                 Goodbye junk food.<br>Hello super healthy meals.
             </h1>
-            <a class="btn btn--full" href="#">I’m hungry</a>
-            <a class="btn btn--ghost" href="#">Show me more</a>
+            <a class="btn btn--full" href="#form">I’m hungry</a>
+            <a class="btn btn--ghost" href="#features">Show me more</a>
         </div>
     </header>
 
     <!-- Features -->
-    <section class="section-features">
+    <section class="section-features" id="features">
         <div class="row">
             <h2>Get food fast &mdash; not fast food</h2>
             <p class="long-copy">Hello, we’re Omnifood, your new premium food delivery service. We know you’re always
@@ -133,7 +135,7 @@
     </section>
 
     <!-- How it works -->
-    <section class="section-steps">
+    <section class="section-steps" id="steps">
         <div class="row">
             <h2>How it works &mdash; Simple as 1, 2, 3</h2>
         </div>
@@ -163,7 +165,7 @@
     </section>
 
     <!-- Cities -->
-    <section class="section-cities">
+    <section class="section-cities" id="cities">
         <div class="row">
             <h2>We're currently in these cities</h2>
         </div>
@@ -239,7 +241,7 @@
     </section>
 
     <!-- testimonial -->
-    <section class="section-testimonial">
+    <section class="section-testimonial" id="testimonial">
         <div class="row">
             <h2>Our customers can't live without us</h2>
         </div>
@@ -274,7 +276,7 @@
         </div>
     </section>
 
-    <section class="section-plans">
+    <section class="section-plans" id="plans">
         <div class="row">
             <h2>Start eating healthy today</h2>
         </div>
@@ -284,7 +286,7 @@
                 <div class="plan-box">
                     <div>
                         <h3>Premium</h3>
-                        <p class="plan-price">$399 
+                        <p class="plan-price">$399
                             <span>/ month</span>
                         </p>
                         <p class="plan-price-meal">That’s only 13.30$ per meal</p>
@@ -329,7 +331,7 @@
                     <div>
                         <h3>Starter</h3>
                         <p class="plan-price">$19 <span>/ month</span></p>
-                        <p>&nbsp;</p>
+                        <p class="plan-price-meal">&nbsp;</p>
                     </div>
                     <div>
                         <ul>
@@ -348,7 +350,7 @@
     </section>
 
     <!-- Form Contact -->
-    <section class="section-form">
+    <section class="section-form" id="form">
         <div class="row">
             <h2>We're happy to hear from you</h2>
         </div>
@@ -375,12 +377,12 @@
                         <label for="find-us">How did you find us?</label>
                     </div>
                     <div class="col span-2-of-3">
-                       <select name="find-us" id="find-us">
-                           <option value="friends" selected>Friends</option>
-                           <option value="search engine">Search engine</option>
-                           <option value="advertisement">Advertisement</option>
-                           <option value="other">Other</option>
-                       </select>
+                        <select name="find-us" id="find-us">
+                            <option value="friends" selected>Friends</option>
+                            <option value="search engine">Search engine</option>
+                            <option value="advertisement">Advertisement</option>
+                            <option value="other">Other</option>
+                        </select>
                     </div>
                 </div>
                 <div class="row">
@@ -430,11 +432,10 @@
             </div>
         </div>
         <div class="row">
-            <p>Copy right &copy; 2021 by Omnifood. <br> Build with <i class="fa-solid fa-heart" style="color: #ea0000; padding: 0 3px;"></i> by Trinh Nguyen Hung.</p>
+            <p>Copy right &copy; 2021 by Omnifood. <br> Build with <i class="fa-solid fa-heart"
+                    style="color: #ea0000; padding: 0 3px;"></i> by Trinh Nguyen Hung.</p>
         </div>
     </footer>
 </body>
 
 </html>
-
-
