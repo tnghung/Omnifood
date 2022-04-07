@@ -27,23 +27,19 @@ $(document).ready(function () {
 
   $(".js--wp-2").waypoint(
     function (direction) {
-      $(".js--wp-2").addClass(
-        "animate__animated animate__fadeInUp animate__slow"
-      );
+      $(".js--wp-2").addClass("animate__animated animate__fadeInUp");
     },
     {
-      offset: "50%",
+      offset: "40%",
     }
   );
 
   $(".js--wp-3").waypoint(
     function (direction) {
-      $(".js--wp-3").addClass(
-        "animate__animated animate__zoomIn animate__slow"
-      );
+      $(".js--wp-3").addClass("animate__animated animate__zoomIn");
     },
     {
-      offset: "50%",
+      offset: "40%",
     }
   );
 
@@ -54,7 +50,7 @@ $(document).ready(function () {
       );
     },
     {
-      offset: "50%",
+      offset: "40%",
     }
   );
 
@@ -63,7 +59,7 @@ $(document).ready(function () {
       $(".js--wp-5").addClass("animate__animated animate__swing");
     },
     {
-      offset: "50%",
+      offset: "40%",
     }
   );
 });
