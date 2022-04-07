@@ -20,12 +20,12 @@
     }
     
     .steps__box { margin-top: 10px; }
-    .steps__box:last-child { margin-top: 10px; width: 100%;}
-    .steps__box:first-child { width: 60%; }
-    .steps__work-step { margin-bottom: 40px; }
-    .steps__work-step:last-of-type { margin-bottom: 60px; }
-    
-    
+    .steps__box:first-child { margin-top: 10px; width: 100%; text-align: center;}
+    .steps__box:last-child { width: 100%; margin-top: 0;}
+    .steps__work-step { margin-bottom: 10px; }
+    .steps__work-step:last-of-type { margin-bottom: 30px; }
+    .steps__app-screen{ width: 30%;}
+
     .icon-small { 
         width: 17px;
         margin-right: 5px;
@@ -39,6 +39,7 @@
     }
     
     .plan-price { font-size: 250%; }
+    .plan-price-meal { font-size: 98%; }
     .contact-form { width: 80%; }
 }
 

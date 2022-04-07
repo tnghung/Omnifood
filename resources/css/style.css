@@ -278,7 +278,6 @@ header {
 
 /* ------- Steps section ------- */
 .section-steps{
-    height: fit-content;
     background-color: #f4f4f4;
 }
 
