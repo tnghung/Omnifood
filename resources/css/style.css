@@ -303,7 +303,6 @@ header {
 
 .steps__work-step{
     margin: 20px 0;
-
 }
 
 .steps__work-step div{
@@ -325,6 +324,14 @@ header {
     line-height: 145%;
 }
 
+.list-apps {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    margin-top: 30px;
+}
+
 .btn-app:visited,
 .btn-app:link{
     border: 0;
@@ -332,7 +339,6 @@ header {
 
 .btn-app img{
     max-height: 40px;    
-    margin-right: 20px;
 }
 
 

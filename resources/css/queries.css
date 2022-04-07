@@ -21,8 +21,8 @@
     
     .steps__box { margin-top: 10px; }
     .steps__box:first-child { margin-top: 10px; width: 100%; text-align: center;}
-    .steps__box:last-child { width: 100%; margin-top: 0;}
-    .steps__work-step { margin-bottom: 10px; }
+    .steps__box:last-child { width: 100%; margin: 0; font-size: 120%;}
+    .steps__work-step { margin-bottom: 10px; margin-left: 100px;}
     .steps__work-step:last-of-type { margin-bottom: 30px; }
     .steps__app-screen{ width: 30%;}
 
@@ -106,7 +106,7 @@
         font-size: 120%;
     }
     
-    .steps__work-step { margin-bottom: 48px; }
+    .steps__work-step { margin-bottom: 48px;}
     .steps__work-step:last-of-type { margin-bottom: 40px; }
 
     .footer-nav,
