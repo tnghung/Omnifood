@@ -11,6 +11,10 @@
         rel="stylesheet">
     <link rel="stylesheet" href="vendors/css/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- <link rel="stylesheet" href="vendors/css/animate.css"> -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="vendors/css/grid.css">
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/queries.css">
@@ -19,10 +23,14 @@
 
 <body>
     <header id="header">
-        <nav>
+        <nav >
             <div class="row">
                 <a href="#features" class="logo-link">
                     <img src="./resources/css/img/logo-white.png" alt="Omnifood logo" class="logo">
+                    <div class="clear"></div>
+                </a>
+                <a href="#features" class="logo-link">
+                    <img src="./resources/css/img/logo.png" alt="Omnifood logo" class="logo-black">
                     <div class="clear"></div>
                 </a>
                 <div class="main-nav">
@@ -45,7 +53,7 @@
     </header>
 
     <!-- Features -->
-    <section class="section-features" id="features">
+    <section class="section-features js--section-features animate__animated" id="features">
         <div class="row">
             <h2>Get food fast &mdash; not fast food</h2>
             <p class="long-copy">Hello, we’re Omnifood, your new premium food delivery service. We know you’re always
@@ -53,7 +61,7 @@
                 cooking. So let
                 us take care of that, we’re really good at it, we promise!</p>
         </div>
-        <div class="row">
+        <div class="row js--wp-1">
             <div class="col span-1-of-4 box ">
                 <i class="fa-solid icon-big fa-infinity"></i>
                 <h3>Up to 365 days/year</h3>
@@ -141,7 +149,7 @@
         </div>
         <div class="row">
             <div class="col span-1-of-2 steps__box">
-                <img class="steps__app-screen" src="resources/css/img/app-iPhone.png" alt="Omnifood app on Iphone">
+                <img class="steps__app-screen js--wp-2" src="resources/css/img/app-iPhone.png" alt="Omnifood app on Iphone">
             </div>
             <div class="col span-1-of-2 steps__box">
                 <div class="steps__work-step">
@@ -171,7 +179,7 @@
         <div class="row">
             <h2>We're currently in these cities</h2>
         </div>
-        <div class="row">
+        <div class="row js--wp-3">
             <div class="col span-1-of-4 box">
                 <img src="resources/css/img/lisbon-3.jpg" alt="Lisbon">
                 <h3>Lisbon</h3>
@@ -285,7 +293,7 @@
 
         <div class="row">
             <div class="col span-1-of-3">
-                <div class="plan-box">
+                <div class="plan-box js--wp-4">
                     <div>
                         <h3>Premium</h3>
                         <p class="plan-price">$399
@@ -436,6 +444,18 @@
                     style="color: #ea0000; padding: 0 3px;"></i> by Trinh Nguyen Hung.</p>
         </div>
     </footer>
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Giúp cho những phiên bản browser đời cũ có thể chạy được media query -->
+    <script src="https://cdn.jsdelivr.net/npm/respond@0.9.0/main.min.js"></script>
+    <!-- Giúp cho những phiên bản browser đời cũ có thể hiểu được tag HTML5 -->
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <!-- Giúp cho những phiên bản browser đời cũ có thể hiểu được CSS3 pseudo-classes và attribute selectors -->
+    <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+    <!-- Dùng thư viện từ waypoints -->
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
 </body>
 
 </html>
