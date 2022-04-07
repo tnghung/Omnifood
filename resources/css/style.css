@@ -278,7 +278,7 @@ header {
 
 /* ------- Steps section ------- */
 .section-steps{
-    height: 100vh;
+    height: fit-content;
     background-color: #f4f4f4;
 }
 
@@ -365,7 +365,7 @@ header {
 
 /* Testimonial section */
 .section-testimonial{
-    height: 100vh;
+    height: fit-content;
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('./img/back-customers.jpg');
     background-position: center;
     background-size: cover;
@@ -443,7 +443,6 @@ cite img{
 
 .plan-box li{
     padding: 5px 0;
-    white-space: nowrap;
 }
 
 .plan-box div:last-child{
