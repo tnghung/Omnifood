@@ -11,6 +11,9 @@
 
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
+    h1{font-size: 132%;}
+    h2{font-size: 110%;}
+    h3{font-size: 100%;}
     body { font-size: 18px; }
     section { padding: 60px 0; }
     
@@ -22,7 +25,7 @@
     .steps__box { margin-top: 10px; }
     .steps__box:first-child { margin-top: 10px; width: 100%; text-align: center;}
     .steps__box:last-child { width: 100%; margin: 0; font-size: 120%;}
-    .steps__work-step { margin-bottom: 10px; margin-left: 100px;}
+    .steps__work-step { margin-bottom: 10px; margin-left: 60px;}
     .steps__work-step:last-of-type { margin-bottom: 30px; }
     .steps__app-screen{ width: 30%;}
 
@@ -41,6 +44,11 @@
     .plan-price { font-size: 250%; }
     .plan-price-meal { font-size: 98%; }
     .contact-form { width: 80%; }
+
+    .checkbox-group{
+        display: flex;
+    }
+
 }
 
 
@@ -85,11 +93,7 @@
     .sticky .main-nav li a:visited { padding: 10px 0; }
     .sticky .mobile-nav-icon { margin-top: 10px; }
     .sticky .mobile-nav-icon i { color: #555; } */
-    
-    
-    
-    h1 { font-size: 180%; }
-    h2 { font-size: 150%; }
+
     
     .long-copy {
         width: 100%;
@@ -106,7 +110,8 @@
         font-size: 120%;
     }
     
-    .steps__work-step { margin-bottom: 48px;}
+    .steps__work-step { margin-bottom: 48px; margin-left: 0;}
+    .steps__work-step p{font-size: 76%;}
     .steps__work-step:last-of-type { margin-bottom: 40px; }
 
     .footer-nav,
@@ -115,12 +120,20 @@
         text-align: center;
     }
 
+    .footer-nav li{
+        margin-right: 10px;
+    }
+
     footer p{
         margin-top: 0;
     }
     
-}
+    cite {
+        margin: 10px 0px 20px;
+        transform: translateX(50%);
+    }
 
+}
 
 
 /* Small phones: from 0 to 480px */

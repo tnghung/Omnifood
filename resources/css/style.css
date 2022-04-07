@@ -33,6 +33,7 @@ html,body {
 /* ----------------------------- */
 
 
+
 /* ----- HEADINGS ----- */
 h1,
 h2,
@@ -494,6 +495,11 @@ input[type=submit]{
 
 input[type=submit]:hover{
     background-color: var(--accent-color);
+}
+
+.box-submit{
+    text-align: center;
+    margin-top: 20px;
 }
 
 /* footer */
