@@ -16,28 +16,34 @@ $(document).ready(function () {
   // Animated on scroll
   $(".js--wp-1").waypoint(
     function (direction) {
-      $(".js--wp-1").addClass("animate__animated animate__fadeIn");
+      $(".js--wp-1").addClass(
+        "animate__animated animate__fadeIn animate__slow"
+      );
     },
     {
-      offset: "38%",
+      offset: "50%",
     }
   );
 
   $(".js--wp-2").waypoint(
     function (direction) {
-      $(".js--wp-2").addClass("animate__animated animate__fadeInUp");
+      $(".js--wp-2").addClass(
+        "animate__animated animate__fadeInUp animate__slow"
+      );
     },
     {
-      offset: "38%",
+      offset: "50%",
     }
   );
 
   $(".js--wp-3").waypoint(
     function (direction) {
-      $(".js--wp-3").addClass("animate__animated animate__zoomIn ");
+      $(".js--wp-3").addClass(
+        "animate__animated animate__zoomIn animate__slow"
+      );
     },
     {
-      offset: "38%",
+      offset: "50%",
     }
   );
 
@@ -48,7 +54,16 @@ $(document).ready(function () {
       );
     },
     {
-      offset: "38%",
+      offset: "50%",
+    }
+  );
+
+  $(".js--wp-5").waypoint(
+    function (direction) {
+      $(".js--wp-5").addClass("animate__animated animate__swing");
+    },
+    {
+      offset: "50%",
     }
   );
 });

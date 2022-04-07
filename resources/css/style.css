@@ -299,6 +299,7 @@ header {
     thì lớp layout màu đen nó hiện lên */
   background-color: #000;
   overflow: hidden;
+  image-rendering: optimizeSpeed;
 }
 
 .meals__photo img {
@@ -342,6 +343,7 @@ header {
 .steps__app-screen {
   width: 50%;
   text-align: right;
+  image-rendering: optimizeSpeed;
 }
 
 .steps__work-step {
@@ -389,6 +391,7 @@ header {
   width: 100%;
   height: auto;
   margin-bottom: 15px;
+  image-rendering: optimizeSpeed;
 }
 
 .city-feature {
@@ -644,4 +647,3 @@ footer p {
 .js--wp-3.animate__animated {
   opacity: 1;
 }
-
