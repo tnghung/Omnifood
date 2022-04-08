@@ -1,144 +1,247 @@
 /* Big tablet to 1200px */
 @media only screen and (max-width: 1200px) {
-    .header__text-box {
-        width: 100%;
-        padding: 0 2%;
-    }
-    
-    .row { padding: 0 2%; }
-}
+  .header__text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
 
+  .row {
+    padding: 0 2%;
+  }
+}
 
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
-    h1{font-size: 132%;}
-    h2{font-size: 110%;}
-    h3{font-size: 100%;}
-    body { font-size: 18px; }
-    section { padding: 60px 0; }
-    
-    .long-copy {
-        width: 80%;
-        margin-left: 10%;
-    }
-    
-    .steps__box { margin-top: 10px; }
-    .steps__box:first-child { margin-top: 10px; width: 100%; text-align: center;}
-    .steps__box:last-child { width: 100%; margin: 0; font-size: 120%;}
-    .steps__work-step { margin-bottom: 10px; margin-left: 60px;}
-    .steps__work-step:last-of-type { margin-bottom: 30px; }
-    .steps__app-screen{ width: 30%;}
+  h1 {
+    font-size: 132%;
+  }
+  h2 {
+    font-size: 110%;
+  }
+  h3 {
+    font-size: 100%;
+  }
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px 0;
+  }
 
-    .icon-small { 
-        width: 17px;
-        margin-right: 5px;
-    }
-    
-    .city-feature { font-size: 90%; }
-    
-    .plan-box {
-        width: 100%;
-        margin-left: 0%;
-    }
-    
-    .plan-price { font-size: 250%; }
-    .plan-price-meal { font-size: 98%; }
-    .contact-form { width: 80%; }
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
 
-    .checkbox-group{
-        display: flex;
-    }
+  .steps__box {
+    margin-top: 10px;
+  }
+  .steps__box:first-child {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .steps__box:last-child {
+    width: 100%;
+    margin: 0;
+    font-size: 120%;
+  }
+  .steps__work-step {
+    margin-bottom: 10px;
+    margin-left: 60px;
+  }
+  .steps__work-step:last-of-type {
+    margin-bottom: 30px;
+  }
+  .steps__app-screen {
+    width: 30%;
+  }
 
+  .icon-small {
+    width: 17px;
+    margin-right: 5px;
+  }
+
+  .city-feature {
+    font-size: 90%;
+  }
+
+  .plan-box {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .plan-price {
+    font-size: 250%;
+  }
+  .plan-price-meal {
+    font-size: 98%;
+  }
+  .contact-form {
+    width: 80%;
+  }
+
+  .checkbox-group {
+    display: flex;
+  }
 }
-
-
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
-    body { font-size: 16px; }
-    section { padding: 30px 0; }
-    
-    .row,
-    .header__text-box { padding: 0 4%; }
-    .col { 
-        width: 100%;
-        margin: 0 0 4% 0;
-    }
-    
-    
-    .main-nav { display: none; }
-    /* .mobile-nav-icon {display: inline-block;}
-    
-    .main-nav {
-        float: left;
-        margin-top: 30px;
-        margin-left: 25px;
-    }
-    
-    .main-nav li {
-        display: block;
-    }
-    
-    .main-nav li a:link,
-    .main-nav li a:visited {
-        display: block;
-        border: 0;
-        padding: 10px 0;
-        font-size: 100%;
-    } */
-    
-    /* .sticky .main-nav { margin-top: 10px; }
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px 0;
+  }
 
-    .sticky .main-nav li a:link,
-    .sticky .main-nav li a:visited { padding: 10px 0; }
-    .sticky .mobile-nav-icon { margin-top: 10px; }
-    .sticky .mobile-nav-icon i { color: #555; } */
+  .row,
+  .header__text-box {
+    padding: 0 4%;
+  }
+  .col {
+    width: 100%;
+    margin: 0 0 4% 0;
+  }
 
-    
-    .long-copy {
-        width: 100%;
-        margin-left: 0%;
-    }
-    .steps__app-screen{width: 40%;}
-    .steps__box:first-child { width: 100%; text-align: center; }
-    
-    .steps__work-step div {
-        height: 40px;
-        width: 40px;
-        margin-right: 15px;
-        padding: 4px;
-        font-size: 120%;
-    }
-    
-    .steps__work-step { margin-bottom: 48px; margin-left: 0;}
-    .steps__work-step p{font-size: 76%;}
-    .steps__work-step:last-of-type { margin-bottom: 40px; }
+  .long-copy {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .steps__app-screen {
+    width: 40%;
+  }
+  .steps__box:first-child {
+    width: 100%;
+    text-align: center;
+  }
 
-    .footer-nav,
-    .social-links{
-        width: 100%;
-        text-align: center;
-    }
+  .steps__work-step div {
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+    padding: 4px;
+    font-size: 120%;
+  }
 
-    .footer-nav li{
-        margin-right: 10px;
-    }
+  .steps__work-step {
+    margin-bottom: 48px;
+    margin-left: 0;
+  }
+  .steps__work-step p {
+    font-size: 76%;
+  }
+  .steps__work-step:last-of-type {
+    margin-bottom: 40px;
+  }
 
-    footer p{
-        margin-top: 0;
-    }
-    
-    cite {
-        margin: 10px 0px 20px;
-        transform: translateX(50%);
-    }
+  /* Main - nav */
 
+  .main-nav,
+  .sticky .main-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+  }
+
+  .logo {
+    height: 80px;
+  }
+
+  .ham-menu,
+  .sticky .ham-menu {
+    display: inline-block;
+  }
+
+  .main-nav {
+    top: -55px;
+  }
+
+  .sticky .main-nav {
+    top: -14px;
+  }
+
+  .main-nav li {
+    display: block;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    border: 0;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .main-nav li a:hover,
+  .main-nav li a:active,
+  .sticky .main-nav li a:hover,
+  .sticky .main-nav li a:active {
+    border-bottom: 3px solid var(--primary-color);
+    width: 60%;
+    margin-left: 20%;
+    color: #f1f1f1;
+  }
+
+  .main-nav .closebtn {
+    display: block;
+    position: absolute;
+    top: 24px;
+    right: 25px;
+    font-size: 400%;
+    border: 0;
+    color: #f1f1f1;
+  }
+
+  .nav-list {
+    margin-top: 115px;
+  }
+
+  .nav-list li a {
+    padding: 20px 0;
+  }
+
+  .sticky .nav-list li,
+  .nav-list li {
+    margin: 0;
+  }
+
+  .footer-nav,
+  .social-links {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-nav li {
+    margin-right: 10px;
+  }
+
+  footer p {
+    margin-top: 0;
+  }
+
+  cite {
+    margin: 10px 0px 20px;
+    transform: translateX(50%);
+  }
 }
-
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
-    section { padding: 25px 0; }
-    .contact-form {width: 100%; }
+  section {
+    padding: 25px 0;
+  }
+  .contact-form {
+    width: 100%;
+  }
 }
-

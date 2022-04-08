@@ -30,7 +30,7 @@ $(document).ready(function () {
       $(".js--wp-2").addClass("animate__animated animate__fadeInUp");
     },
     {
-      offset: "40%",
+      offset: "55%",
     }
   );
 
@@ -39,7 +39,7 @@ $(document).ready(function () {
       $(".js--wp-3").addClass("animate__animated animate__zoomIn");
     },
     {
-      offset: "40%",
+      offset: "55%",
     }
   );
 
@@ -59,7 +59,19 @@ $(document).ready(function () {
       $(".js--wp-5").addClass("animate__animated animate__swing");
     },
     {
-      offset: "40%",
+      offset: "55%",
     }
   );
 });
+
+function openNav() {
+  if (window.innerWidth < 768) {
+    document.getElementById("myMainNav").style.width = "100%";
+  }
+}
+
+function closeNav() {
+  if (window.innerWidth < 768) {
+    document.getElementById("myMainNav").style.width = "0";
+  }
+}
