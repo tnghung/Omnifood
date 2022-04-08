@@ -165,7 +165,7 @@ a:active {
 header {
   position: relative;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("img/hero.jpg");
+    url("img/hero-min.jpg");
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -448,7 +448,7 @@ header {
   height: -moz-fit-content;
   height: fit-content;
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    url("./img/back-customers.jpg");
+    url("./img/back-customers-min.jpg");
   background-position: center;
   background-size: cover;
   color: #fff;
