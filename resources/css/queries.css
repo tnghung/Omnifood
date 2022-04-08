@@ -160,6 +160,10 @@
     display: inline-block;
   }
 
+  .ham-menu {
+    color: #fff;
+  }
+
   .main-nav {
     top: -55px;
   }
